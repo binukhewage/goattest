@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='border-t border-gray-300'>
         <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 text-sm pt-10'>
             <div>
                 <img src={assets.logo} alt="" className='mb-5 w-45' />

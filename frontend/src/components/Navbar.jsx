@@ -110,7 +110,7 @@ const Navbar = () => {
               Products
             </NavLink>
             <NavLink 
-              to='/about' 
+              to='/collections' 
               onClick={toggleMenu}
               className={({ isActive }) => 
                 `py-2 ${isActive ? 'text-black font-semibold' : ''}`
@@ -119,7 +119,7 @@ const Navbar = () => {
               Collections
             </NavLink>
             <NavLink 
-              to='/collections' 
+              to='/contact' 
               onClick={toggleMenu}
               className={({ isActive }) => 
                 `py-2 ${isActive ? 'text-black font-semibold' : ''}`
